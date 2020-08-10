@@ -1,0 +1,58 @@
+/*desafío 4*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: #B0CCAB;
+    padding: 50px;
+    width: 47.5%;
+    height: 200px;
+    margin: 0 auto;
+}
+.main .p {
+    text-align: left;
+    padding: 0 3% 0 1%;
+}
+
+.main__paragraph {
+    left: 400px;
+    position: fixed;
+    width: 47.5%;
+}
+/*desafío 5 y 6*/
+.sect-ppal {
+    margin: 0;
+}
+.div-imgs {
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.img-lens {
+    margin-left:30%;
+}
+.img-lazo {
+    position: absolute;
+    left: 200px;
+    top: 5px;
+}
+/*desafío 6*/
+.lazo-6 {
+    left: 390px;
+    top: 140px;
+    height: 60px;
+    width: 60px;
+}
+.img-batter {
+    margin-left:35%;
+}
+/*desafío 7*/
+.main-7 {
+    height: 400px;
+}
+.img-lazo-7 {
+    position: fixed;
+    right: 0;
+    top: 0;
+}

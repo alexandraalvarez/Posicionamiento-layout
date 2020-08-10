@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin: 5px;
+}
+.box {
+    border: 2px solid #808080;
+    height: 175px;
+    display: inline-block;
+    width: 25%;
+    margin: 2.5% 1% 0 1%;
+    position: relative;
+}
+.pais {
+    display: inline-block;
+}
+/*bandera españa*/
+.box-1 {
+    margin-left: 25%;
+    background-color: red;
+}
+.rect-yellow {
+    position: absolute;
+    top:27.5%;
+    width: 100%;
+    height:80px;
+    background-color: yellow;
+    z-index: 2;
+}
+.pais-esp {
+    margin-left: 25%;
+}
+/*bandera dinamarca*/
+.box-2 {
+    margin-right: 20%;
+    background-color: red;
+}
+.line-white-hori, .line-white-vert {
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+}
+.line-white-hori {
+    top:45%;
+    width: 100%;
+    height:15px;
+}
+.line-white-vert {
+    left: 25%;
+    width: 15px;
+    height:100%;
+}
+.pais-din {
+    margin-left: 23.5%;
+}
+/*bandera emiratos árabe*/
+.box-3 {
+    margin-left: 25%;
+}
+.line-green-hori, .line-red-vert, .line-black-hori {
+    position: absolute;
+    z-index: 2;
+}
+.line-green-hori, .line-black-hori {
+    left: 25%;
+    width: 75%;
+    height:60px;
+} 
+.line-green-hori {
+    background-color: green;
+}
+.line-red-vert {
+    background-color: red;
+    width: 25%;
+    height:100%;
+}
+.line-black-hori {
+    background-color: black;
+    top: 66%;
+}
+.pais-emir {
+    margin-left: 25%;
+}
+/*bandera japón*/
+.box-4 {
+    margin-right: 15%;
+}
+.circle-red-cent {
+    position: absolute; 
+    top: 25%;
+    left: 40%; 
+    background-color: red;
+    width: 75px;
+    height: 75px;
+    border-radius: 37.5px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+.pais-jap {
+    margin-left: 19%;    
+}

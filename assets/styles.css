@@ -1,0 +1,41 @@
+/*desafío 1-a*/
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin: 5px;
+}
+.box, .box-2 {
+    border: 2px solid #808080;
+    height: 100px;
+    display: inline-block;
+    width: 23.5%;
+    padding: 6.5px;
+}
+
+/*desafío 1-b*/
+.paragraphs {
+    text-align: justify;
+}
+.paragraphs .p, .nav-fixed .p {
+    margin: 2%;
+}
+.img {
+    display: inline-block;
+    padding: 10% 7.5%;
+}
+.box-2 {
+    height: 500px;
+    border: none;
+}
+
+/*desafío 1-c*/
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    background-color: green;
+}
+.paragraphs-2 {
+    margin-top: 22%;
+}
